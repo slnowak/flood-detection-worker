@@ -1,0 +1,13 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "direction": "in",
+      "type": "eventHubTrigger",
+      "name": "eventHubBinding",
+      "path": "[variables('jobQueue').name]",
+      "consumerGroup": "[variables('jobQueue').lambdaConsumerGroup]",
+      "connection": "eventHubConnection"
+    }
+  ]
+}
