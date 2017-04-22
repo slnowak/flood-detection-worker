@@ -5,8 +5,8 @@
       "direction": "in",
       "type": "eventHubTrigger",
       "name": "eventHubBinding",
-      "path": "[variables('jobQueue').name]",
-      "consumerGroup": "[variables('jobQueue').lambdaConsumerGroup]",
+      "path": "job-queue-hub",
+      "consumerGroup": "lambda-worker",
       "connection": "eventHubConnection"
     }
   ]
