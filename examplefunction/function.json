@@ -7,7 +7,8 @@
       "name": "eventHubBinding",
       "path": "job-queue-hub",
       "consumerGroup": "lambda-worker",
-      "connection": "eventHubConnection"
+      "connection": "eventHubConnection",
+      "cardinality": "One"
     }
   ]
 }
