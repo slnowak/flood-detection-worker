@@ -5,7 +5,7 @@
       "direction": "in",
       "type": "eventHubTrigger",
       "name": "eventHubBinding",
-      "path": "job-queue-hub",
+      "path": "anomaly-data-hub",
       "consumerGroup": "lambda-worker",
       "connection": "eventHubConnection",
       "cardinality": "One"
